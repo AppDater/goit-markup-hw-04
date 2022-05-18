@@ -25,15 +25,23 @@
             <!-- navigation -->
             <nav class="navigation">
                 <ul class="links">
-                    <li class="item"><a class="link" href="./index.html">Студия</a></li>
-                    <li class="item"><a class="link link_uncommon" href="./portfolio.html">Портфолио</a></li>
+                    <li class="item"><a class="link link_uncommon" href="./index.html">Студия</a></li>
+                    <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
                     <li class="item"><a class="link" href="">Контакты</a></li>
                 </ul>
             </nav>
+    
             <!-- contacts -->
             <ul class="contact_links">
-                <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item"><a class="link" href="mailto:info@devstudio.com">
+                        <svg class="header_contact_link" width="16" height="12">
+                            <use href="./pictures/sprite/sprite.svg#icon-header-mail-icon"> </use>
+                        </svg> info@devstudio.com</a>
+                </li>
+                <li class="item"><a class="link" href="tel:+380961111111">
+                        <svg class="header_contact_link" width="10" height="16">
+                            <use href="./pictures/sprite/sprite.svg#icon-header-phone-icon"> </use>
+                        </svg> +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -122,16 +130,35 @@
     <!-- footer section -->
     <footer class="footer">
         <div class="container">
-            <a class="studio_naming" href=""> <span class="naming_first_part">Web</span> <span
-                    class="naming_second_part">Studio</span></a>
-            <address>
-                <ul class="footer_contacts">
-                    <li><a target="blank" class="studio_location" href="https://goo.gl/maps/rv8X6NTWvVzBSWie9">г. Киев, пр-т
-                            Леси Украинки, 26</a></li>
-                    <li><a class="studio_mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="studio_phone_number" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+            <div class="footer_contacts_block">
+                <a class="studio_naming" href=""> <span class="naming_first_part">Web</span> <span
+                        class="naming_second_part">Studio</span></a>
+                <address>
+                    <ul class="footer_contacts">
+                        <li><a target="blank" class="studio_location" href="https://goo.gl/maps/rv8X6NTWvVzBSWie9">г. Киев,
+                                пр-т Леси Украинки, 26</a></li>
+                        <li><a class="studio_mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="studio_phone_number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer_links">
+                <h3>присоединяйтесь</h3>
+                <div class="studio_link_icons">
+                    <a class="studio_link" href=""><svg class="studio_link_icon" width="20" height="20">
+                            <use href="/pictures/sprite/sprite.svg#icon-instagram-icon"></use>
+                        </svg></a>
+                    <a class="studio_link" href=""><svg class="studio_link_icon" width="20" height="20">
+                            <use href="./pictures/sprite/sprite.svg#icon-twitter-icon"></use>
+                        </svg></a>
+                    <a class="studio_link" href=""><svg class="studio_link_icon" width="20" height="20">
+                            <use href="./pictures/sprite/sprite.svg#icon-facebook-icon"></use>
+                        </svg></a>
+                    <a class="studio_link" href=""><svg class="studio_link_icon" width="20" height="20">
+                            <use href="./pictures/sprite/sprite.svg#icon-linkedin-icon"></use>
+                        </svg></a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
